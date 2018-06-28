@@ -1,0 +1,226 @@
+/* CONTROL DE FLUJO | FLUJO LINEAL Y FLUJO CONDICIONAL */
+var edad=4;
+edad++=
+
+
+/* operacion modulo | hace una division y hace el resto de esa division. ejemplo: 8 papelitos a ubicar en 3 cajitas, en pares. Necesito que las cajas tengan lo mimo, me restan2  | 8/3 resto 2 6/3 resto 0
+sintaxis: 6 % 3 " 6 division 3, devuelve el resto :0 | 8%3 0*/
+
+var modulo= 17%2;
+console.log(modulo);
+*/
+
+/* si un numero es par , el resto de su modulo tiene que dar 0  n°%2 0 | impar : n°%2 1*/
+ var numero=;
+ (undefined) /* no conozco el valor*/
+ 
+ /* strings* "cadena de caracteres"| variable que muestre un texto | texto variable*/
+ 
+ var saludo="hola mundo"
+undefined
+saludo
+"hola mundo"
+var mensajeBienvenida = "bienvenido al curso de java script"
+undefined
+mensajeBienvenida
+"bienvenido al curso de java script"
+mensajeBienvenida="hola que tal"}
+VM2218:1 Uncaught SyntaxError: Unexpected token }
+men
+VM2222:1 Uncaught ReferenceError: men is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2222:1
+mensajeBienvenida="hola que tal"
+"hola que tal"
+
+/* ---------------string | cadenas de carcteres*/
+/*concatenacion| suma de caracteres*/
+var hola = "hola"
+var mundo= " mundo"
+hola+mundo 
+"hola mundo"
+
+var textoOne="hola que tal";
+var textoTwo="llueve hoy";
+console.log(textoOne+textoTwo);
+VM9917:3 hola que talllueve hoy
+
+var texto1="hola que tal";
+var texto2="llueve hoy";
+console.log(texto1+texto2);
+
+VM9918:3 hola que talllueve hoy   /* NOTA : CONSOLE.LOG es todo minuscula, importa si Console.log, no funca*/
+/* ingresar al index.html - al inspeccionar en consola muestra el mensaje */
+
+/*Mostrando una alerta en el navegador
+Además de mostrar valores por la consola, también puedo hacerlo en una ventana. Para eso, desde JavaScript usamos alert.
+
+Su uso es similar al de console.log, por ejemplo, si escribimos
+
+alert(5)se desplegará una ventana mostrando el número 5en el navegador.
+alert("Hola.") se ver el texto "Hola".
+alert(x) mostrar el valor contenido en la variable x
+¡Podés probar el contenido de alertla consola del navegador y ver qué sucede!*/
+
+var x="que estas haciendo??";
+undefined
+var x="que estas haciendo??";
+alert(x)
+
+/*mensaje: que etsas haciendo??*/
+/* interactuar con el usuario - PROMPT*/
+var color = prompt("¿Cuál es tu color favorito?");
+/*Esto desplegará una ventana donde el usuario podrá completar su colorresultado y se guardará en la variable colorcomo si fuera un texto.*/
+
+ /*convertir este string al número instante usando algo llamado parseInt.*/
+ parseInt("10")
+10
+parseInt("10")
+10
+parseInt("ñ")
+NaN
+parseInt("164")
+164
+ /* EDAD */
+ var stringEdad = prompt("¿Cuál es tu edad?");
+
+var edad = parseInt(stringEdad);
+
+/*examen*/
+/*1*/primerVariable:8;
+8
+var primerVariable;8;
+primerVariable
+undefined
+var primerVariable=8;
+primerVariable
+8
+
+/*2*/
+var x=2;
+var y=3;
+x*y
+6
+/*3*/
+var anoNac=1985;
+console.log(anoNac)
+VM105:2 1985
+
+/*4*/
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+var anoNac=1985;
+var edad=33;
+var nombre="Daniela;"
+console.log(nombre+edad);
+  </script>
+
+</html>
+
+/*5*/
+alert("bienvenido");
+
+/*6*/
+var comida= prompt ("cual es tu comida favorita?");
+
+/*7*/
+var nombreDeUsuario= prompt ("cual es el nombre de usuario?");
+/*ingreso "hola daniela*/
+alert(nombreDeUsuario);
+
+/*8*/
+var acumulador=0;
+var uno=1;
+var dos=2;
+var tres=3;
+var cuatro=4;
+acumulador = acumulador +uno+dos+tres+cuatro;
+10
+/*******/
+var acumulador=0;
+var uno=1;
+var dos=2;
+var tres=3;
+var cuatro=4;
+acumulador += uno;
+acumulador+= dos;
+acumulador+= tres;
+acumulador+=cuatro;
+alert(acumulador);
+
+/*9*/
+var nro1 = 0;
+var nro2 = 0;
+nro1++;
+nro1++;
+nro2++;
+alert(nro1-nro2);
+
+/*10*/
+var numero = prompt ("ingrese numero");
+numero/10
+2.9
+var numero = prompt ("ingrese numero");
+alert (numero/10);
+
+
+var numero = prompt ("ingrese numero");
+var resultado= numero/10;
+alert ("resultado: "+resultado);
+undefined
+
+/*11*/
+var modulo=14%3;
+console.log(modulo);
+2
+
+/*12*/
+var diez=10;
+var resta=561-25;
+
+alert (resta+diez);
+
+/*var diez= Es la forma correcta | var 10=10; las variable SIEMPRE EMPIEZAN CON UNA LETRA, se puede alfanumerica*/
+
+
+/*13 concatenacion de strings*/
+vvar string1= "Que";
+var string2= " lindo";
+var string3= " programar";
+console.log(string1+string2+string3);
+VM14579:4 Que lindo programar
+/*CARACTER DE ESCAPE "\" ANTES DEL CARACTER | si quiero agregar caracteres distintos como el texto que lindo programar entre comillas y que la comillas no entren en conflicto con las 
+comillas de la asignacion del string*/
+
+var string1= "\"Que";
+var string2= " lindo";
+var string3= " programar\"";
+console.log(string1+string2+string3);
+
+VM14627:4 "Que lindo programar"
+
+/*14*/
+var hola= "hola";
+var mundo=" mundo";
+alert(hola+ mundo);
+
+/*15*/
+var valorTotal=prompt ("ingrese el valor total o valor equivalente al 100%");
+var numeroCualquiera= prompt ("ingrese el numero consulta");
+var porcentaje=(numeroCualquiera/valorTotal *100);
+alert(porcentaje);
+
+/* con texto y numero como concatenacion de texto*/
+var valorTotal=prompt ("ingrese el valor total o valor equivalente al 100%");
+var numeroCualquiera= prompt ("ingrese el numero consulta");
+var porcentaje=(numeroCualquiera/valorTotal *100);
+alert("corresponde al: "+porcentaje);
+
