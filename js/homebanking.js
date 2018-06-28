@@ -16,7 +16,7 @@ if (! sessionStorage.getItem("saldoAnterior")) {
 	//crearCuentas();
 //}
 
-sessionStorage.setItem('color','#0000FF');
+sessionStorage.setItem('color','#00000F');
 document.body.style.backgroundColor = sessionStorage.getItem("color");
 
 
